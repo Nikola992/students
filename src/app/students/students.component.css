@@ -1,0 +1,15 @@
+.selected{
+  background-color: blue;
+  color: white;
+}
+
+
+.students{
+  border: 1px solid black;
+}
+
+.stu1{
+
+  list-style-type: none;
+
+}

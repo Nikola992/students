@@ -13,7 +13,7 @@ import { STUDENTS } from '../mock-students';
 export class StudentsComponent implements OnInit {
 
 students = STUDENTS;
-selectedStudent: Student = "";
+selectedStudent: Student = { id: 34, name: 'dsafjsd'};
 student: Student = {
   id: 1,
   name: 'Petar Petrovic'
