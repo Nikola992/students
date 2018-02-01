@@ -13,12 +13,9 @@ import { STUDENTS } from '../mock-students';
 export class StudentsComponent implements OnInit {
 
 students = STUDENTS;
-selectedStudent: Student = { id: 0, name: 'Ime'};
-student: Student = {
-  id: 1,
-  name: 'Petar Petrovic'
-};
-// student = 'Petar Petrovic';
+selectedStudent: Student = { id: 1, name: 'Ime',gender: '', description: '' };
+
+
 onSelectedStudent(student) {
   this.selectedStudent = student;
 }

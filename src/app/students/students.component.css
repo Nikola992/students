@@ -1,15 +1,14 @@
-.selected{
+.selected {
   background-color: red;
   color: white;
 
 }
-
-
 .students{
   border: 1px solid black;
   padding: 15px;
 }
-ul{
+
+ul {
   padding: 10px;
 }
 .stu1{
