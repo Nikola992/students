@@ -1,6 +1,7 @@
 .selected{
-  background-color: blue;
+  background-color: red;
   color: white;
+
 }
 
 
@@ -8,9 +9,20 @@
   border: 1px solid black;
   padding: 15px;
 }
-
+ul{
+  padding: 10px;
+}
 .stu1{
 
   list-style-type: none;
+  margin-bottom: 10px;
 
+}
+.stu1:hover{
+  background-color: blue;
+  color: white;
+}
+
+.stu1:last-of-type{
+  margin-bottom: 0
 }
