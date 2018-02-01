@@ -1,0 +1,16 @@
+
+
+<div *ngIf='detail'>
+  <h2>
+    {{ detail.name }} detalis:
+  </h2>
+      <div>
+        <div>ID studenta:{{detail.id}}</div>
+        <div>Pol: {{detail.gender}}</div>
+        <div>Opis: {{detail.description}}</div>
+        <div>Student name:
+          <input type="text" [(ngModel)]="detail.name" >
+
+        </div>
+      </div>
+</div>

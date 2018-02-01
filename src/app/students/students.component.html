@@ -6,21 +6,4 @@
   </ul>
 </div>
 
-
-
-<div *ngIf='selectedStudent'>
-  <h2>
-    {{ selectedStudent.name }} detalis:
-  </h2>
-      <div>
-        <div>ID studenta:{{selectedStudent.id}}</div>
-        <div>Pol: {{selectedStudent.gender}}</div>
-        <div>Opis: {{selectedStudent.description}}</div>
-        <div><p>Student name:</p>
-          <input type="text" [(ngModel)]="selectedStudent.name" >
-        
-        </div>
-      </div>
-
-
-</div>
+<app-student-detail [detail]="selectedStudent"></app-student-detail>
