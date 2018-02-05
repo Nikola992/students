@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { StudentsComponent } from './students/students.component';
 import { StudentDetailComponent } from './student-detail/student-detail.component';
 import { MockServiceService } from './mock-service.service';
+import { HighlightDirective } from './highlight.directive';
 
 
 
@@ -13,7 +14,8 @@ import { MockServiceService } from './mock-service.service';
   declarations: [
     AppComponent,
     StudentsComponent,
-    StudentDetailComponent
+    StudentDetailComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
