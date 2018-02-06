@@ -30,7 +30,8 @@ onSelectedStudent(student) {
   }
 
   getStudentsFromService(): void {
-    this.students = this.mockService.getStudents();
+  //  this.students = this.mockService.getStudents();
+  this.mockService.getStudents().subscribe(allStudents =>this.students = allStudents);
   }
 
 }

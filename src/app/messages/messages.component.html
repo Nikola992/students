@@ -1,0 +1,5 @@
+
+<h2 *ngFor='let poruka of messageService.messages'>
+  Messeage:{{poruka}}
+</h2>
+<button type="button" name="button"(click) ="messageService.clearMesssages()">Ocisti poruke</button>
